@@ -106,3 +106,46 @@ footer a  {
     text-decoration: none;
     
 }
+
+@media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .main-section {
+      flex-direction: column; /* Example: Stack elements vertically */
+    }
+  
+    .main-section input {
+      font-size: 1.5rem; /* Adjust as needed */
+    }
+  
+    .images img {
+      width: 30%; /* Example: Adjust image size */
+      margin: 1%;
+    }
+  }
+  
+  /* Add more media queries for different screen sizes as needed */
+  
+
+  @media (max-width: 580px) {
+    /* Styles for screens up to 768px wide */
+    .main-section {
+      flex-direction: column; 
+      padding: 10px;
+      margin: 10px;
+      
+      /* Example: Stack elements vertically */
+    }
+    .main-section h1 {
+        font-size: 3rem;
+        padding: 5% 20%;
+    }
+    .main-section input {
+      font-size: 2rem; /* Adjust as needed */
+    }
+  
+    .images img {
+      width: 30%; /* Example: Adjust image size */
+      margin: 1%;
+    }
+  }
+  
