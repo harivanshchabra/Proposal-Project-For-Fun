@@ -107,6 +107,15 @@ footer a  {
     
 }
 
+
+#h1foryes {
+  margin: 10%;
+  padding: 10%;
+  width: 100%;
+
+}
+
+
 @media (max-width: 768px) {
     /* Styles for screens up to 768px wide */
     .main-section {
